@@ -1,0 +1,74 @@
+{
+ "run_id": "20261003T123540Z_october_opus55_codex",
+ "started_utc": "2026-10-03T12:35:40.801853Z",
+ "batch_submitted_utc": "2026-10-03T12:43:33.343074+00:00",
+ "batch_collected_utc": "2026-10-03T12:46:11.075636Z",
+ "batch_id": "msgbatch_016wcQ4t1whbKuBBY8HanueK",
+ "harness_version": "1.2",
+ "prompt_template": "twin_prompt_v1_1.md",
+ "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+ "model_requested": "claude-opus-5-5",
+ "model_returned": "claude-opus-5-5",
+ "model_consistent": true,
+ "settings": {
+  "thinking": {
+   "type": "adaptive"
+  },
+  "effort": "medium",
+  "max_tokens": 4000,
+  "temperature": "omitted (API default)"
+ },
+ "index": {
+  "version": "v3.1.1",
+  "chunks_sha256": "83b37cb2b31fd9d272ee1e5251a4914c8484d12445759ee8a500ae1eb34670a6",
+  "embeddings_sha256": "aa1cd5fd851338fea23113db79ed6f1c3e49f3abfd082105453ac6c03b21a89f",
+  "n_chunks": 37268,
+  "n_writings": 2977,
+  "encoder": "BAAI/bge-small-en-v1.5",
+  "encoder_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "evidence_window": "October Terms 1991-2024"
+ },
+ "retrieval": {
+  "k": 8,
+  "queries_per_case": 3,
+  "channel": "authored",
+  "max_term": 2024,
+  "quotas": "2 majority / 2 separate / rest by score, <=2 per prior case"
+ },
+ "packets": {
+  "25-170": {
+   "file": "packets/OT2026_25-170_Suncor.md",
+   "sha256": "b22883aa7a9a913552df66471b22f7ab546dc280a08b8f6ef2e8c28331df8b4e"
+  },
+  "25-735": {
+   "file": "packets/OT2026_25-735_Johnson.md",
+   "sha256": "ecbc28c5e3febe9d6cdf49c864ea6c0b36f9e0f786eaab585214030f8c7d7e6a"
+  },
+  "25-498": {
+   "file": "packets/OT2026_25-498_Anderson.md",
+   "sha256": "fcc40d274d9561dec6e358d1d6a1e7f0c2d90b5cec965ebe06966aadda12b17c"
+  },
+  "25-579": {
+   "file": "packets/OT2026_25-579_AirForce.md",
+   "sha256": "06520b08f7e9fafe3af4c3a684ea41a9702e27b1cec15e5d18cfad89007e7614"
+  }
+ },
+ "run_files_sha256": {
+  "run_log_json": "475ae214f80cc3d9ad4cb23299937b73acf9fbeeefa2020f3975e8579cabf4b3",
+  "provider_results_jsonl": "170e45667c10993d980cbc0529f191a52e7b0dc86aa20cb6258d8ec3a449a351",
+  "forecast_table_csv": "03e3a9fc676513a1c447fa9f2f1b6192e8870b99f49faf76326fa7404985159e",
+  "artifact_sha256_json": "1d060569197f564009eb9772a6a9671b4b81f7ff782f1b6e3ae968725a3ff369"
+ },
+ "filed": {
+  "where": "FantasySCOTUS (fantasyscotus.lexpredict.com)",
+  "when": "2026-10-04, approx. 08:35-09:05 UTC",
+  "by": "Raymond Duch",
+  "evidence": "screenshots and SHA256SUMS held by the project; released with the sealed files"
+ },
+ "to_be_released_on_decision": [
+  "the full prompt per Justice per case (system + user message)",
+  "the eight retrieved passages per Justice per case with their chunk ids",
+  "the complete model response per Justice per case (vote, probability, disposition, considerations, rationale, confidence, speculation)",
+  "the filing screenshots"
+ ]
+}
