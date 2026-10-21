@@ -1,0 +1,102 @@
+{
+ "batch": "October 2026 sitting, batch 2 (Beaird 25-5343, Salazar 25-459)",
+ "status": "RUN ON 2026-10-11, NOT FILED ON FANTASYSCOTUS, PUBLISHED 2026-10-21 AFTER ARGUMENT, UNSCORED",
+ "why": "The filing step (Sunday 11 October) was not carried out; the project lead was in Hong Kong for the LLMSS workshops and the step had no second owner. Under SCORING_RULE.md rule 1 an unfiled sitting is not scored. The runs are published for transparency with their original time-stamps and hashes; they carry no pre-argument public time-stamp and are excluded from the scored record.",
+ "runs": {
+  "25-5343": {
+   "run_id": "20261011T052308Z_beaird_opus55_codex",
+   "started_utc": "2026-10-11T05:23:08.286589Z",
+   "batch_submitted_utc": "2026-10-11T05:29:08.440354+00:00",
+   "batch_collected_utc": "2026-10-11T05:32:06.508763Z",
+   "batch_id": "msgbatch_01WXWJgY3jtPfNhaNQ5ZywG4",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-5343_Beaird.md",
+    "sha256": "47e48c62c571bce046b6c8c15b410a4c01e39447e55c6948a4886b6a26892078"
+   },
+   "run_files_sha256": {
+    "run_log_json": "35ceb993711019efe9d5d4282534ada3359ce529c464a9bf959849357259691e",
+    "provider_results_jsonl": "5aba9de989a10756e75b3262aadf24e06b1722ca72a94abe98b9f1c332ccf023",
+    "forecast_table_csv": "99267acca9c0990d33e83ef50beada17f4c876fd314d6232770516a686eb39db",
+    "artifact_sha256_json": "72871de542f21baf6b13917a746e4d98460d8b7829c97d205d225e3f11d6c000"
+   },
+   "executed_by": "Laurenz Günther"
+  },
+  "25-459": {
+   "run_id": "20261011T031028Z_salazar_opus55_codex",
+   "started_utc": "2026-10-11T03:10:28.336315Z",
+   "batch_submitted_utc": "2026-10-11T03:13:01.678854+00:00",
+   "batch_collected_utc": "2026-10-11T03:15:25.668253Z",
+   "batch_id": "msgbatch_01M9876FSBJ2cT1FPY3duM8X",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-459_Salazar.md",
+    "sha256": "37e2cf661b8b41ddf8e6da86e43690f03119e05081da65f338ea159bfe3f95f0"
+   },
+   "run_files_sha256": {
+    "run_log_json": "47c82c68f677fbc43e9f7f7b846a2fd8859dc0fa621733d9dd83e35a5d203155",
+    "provider_results_jsonl": "23c70eea541da6dd7f78811cae2fc896f85c026b58c1cc58cbff2594c4d5d7c7",
+    "forecast_table_csv": "1ed8c31acf0562ad2ebf1590c262b1dfaf6b0416312cb4cb349e9606e97b3563",
+    "artifact_sha256_json": "7ac38a26d98c2539172420a24197c928791536d016a3f4fbd89169f454300931"
+   },
+   "executed_by": "Laurenz Günther"
+  }
+ },
+ "index": {
+  "version": "v3.1.1",
+  "chunks_sha256": "83b37cb2b31fd9d272ee1e5251a4914c8484d12445759ee8a500ae1eb34670a6",
+  "embeddings_sha256": "aa1cd5fd851338fea23113db79ed6f1c3e49f3abfd082105453ac6c03b21a89f",
+  "n_chunks": 37268,
+  "n_writings": 2977,
+  "encoder": "BAAI/bge-small-en-v1.5",
+  "encoder_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "evidence_window": "October Terms 1991-2024"
+ },
+ "retrieval": {
+  "k": 8,
+  "queries_per_case": 3,
+  "channel": "authored",
+  "max_term": 2024,
+  "quotas": "2 majority / 2 separate / rest by score, <=2 per prior case"
+ },
+ "notes": {
+  "25-5343": "Grant limited to the Stinson question; the United States supports vacatur; the packet defines petitioner = vacate, respondent = affirm (court-appointed amicus). Run folder records a sandbox DNS failure before the first submission and a recovery that confirmed no provider request had been made before the single paid submission.",
+  "25-459": "Standard alignment; petitioner lost below."
+ },
+ "filed": {
+  "where": "not filed",
+  "when": null,
+  "by": null
+ },
+ "to_be_released_on_decision": [
+  "the full prompt per Justice per case",
+  "the eight retrieved passages per Justice per case with their chunk ids",
+  "the complete model response per Justice per case"
+ ]
+}

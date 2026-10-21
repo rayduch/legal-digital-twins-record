@@ -1,4 +1,4 @@
-# Legal Digital Twins — prediction record, October 2026 sitting (batch 1)
+# Legal Digital Twins — prediction record, October 2026 sitting
 
 Nine digital twins of the sitting Justices of the US Supreme Court, each conditioned only on that Justice's own
 authored and joined opinions (October Terms 1991–2024), predicted the four cases argued 5–7 October 2026. The
@@ -58,8 +58,23 @@ Entered on FantasySCOTUS by Raymond Duch on 4 October 2026 between approximately
 time, each saved once and not edited after. FantasySCOTUS listed Justice Alito as recused in 25-170, so that case was
 filed with eight entries (Affirm 5–3); the nine-twin outcome was also Affirm.
 
-Next: Beaird v. United States (25-5343, argued 13 Oct) and Salazar v. Paramount Global (25-459, argued 14 Oct), to be
-filed on 11 October 2026 and added here as `*_2026-10-11.*`.
+## Batch 2 — run on 11 October, not filed, published after argument, unscored
+
+Beaird v. United States (25-5343, argued 13 October) and Salazar v. Paramount Global (25-459, argued 14 October) were
+run on 11 October 2026 (Salazar 03:10–03:15 UTC, Beaird 05:23–05:32 UTC; runs `20261011T031028Z_salazar_opus55_codex`
+and `20261011T052308Z_beaird_opus55_codex`, executed by Laurenz Günther, same model, settings, index and template as
+batch 1). **They were not filed on FantasySCOTUS before argument**: the filing step scheduled for Sunday 11 October was
+not carried out, and the omission was found on 21 October. Under rule 1 of `SCORING_RULE.md` an unfiled sitting is not
+scored. The runs are published here on 21 October 2026 for transparency, with the time-stamps and hashes they carry in
+the run folders, as `*_2026-10-11.*`; they have no pre-argument public time-stamp and **do not enter the scored record**.
+The twins' predictions were Beaird: vacate (petitioner) 9–0; Salazar: reverse (petitioner) 7–2. The Beaird packet
+defines the sides by disposition because the United States, the nominal respondent, supports vacatur (see the packet's
+Procedural posture). Files: `predictions_2026-10-11.csv`, `outcomes_2026-10-11.csv`, `packets/OT2026_25-5343_Beaird.md`,
+`packets/OT2026_25-459_Salazar.md`, `sealed/RUN_RECORD_2026-10-11.json`, `sealed/SEALED_HASHES_2026-10-11.csv`,
+`NOTE_2026-10-21_batch2.md`.
+
+Next: the November sitting (opens 2 November 2026); packets by 29 October, run 31 October, filing on 1 November, with a
+named owner and a confirmation step for the filing.
 
 ---
 Content © 2026 Raymond Duch and Laurenz Günther; released under CC BY 4.0. Research commentary, not legal advice.
