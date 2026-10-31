@@ -73,8 +73,42 @@ Procedural posture). Files: `predictions_2026-10-11.csv`, `outcomes_2026-10-11.c
 `packets/OT2026_25-459_Salazar.md`, `sealed/RUN_RECORD_2026-10-11.json`, `sealed/SEALED_HASHES_2026-10-11.csv`,
 `NOTE_2026-10-21_batch2.md`.
 
-Next: the November sitting (opens 2 November 2026); packets by 29 October, run 31 October, filing on 1 November, with a
-named owner and a confirmation step for the filing.
+(The November sitting's first batch was filed on 31 October 2026; see the next section.)
+
+## Batch 3 — November sitting, filed 31 October 2026 before argument (scored)
+
+Maxwell v. Dinis (25-5930, argued 2 November), Younge v. Fulton Judicial Circuit District Attorney's Office (25-352,
+argued 2 November), St. Mary Catholic Parish v. Roy (25-581, argued 3 November) and Guerrero v. Johnson (25-1003, argued
+4 November) were run on 30 October 2026 (18:24–18:32 UTC; runs `20261030T182415Z_maxwell_opus55_claude`,
+`20261030T182506Z_younge_opus55_claude`, `20261030T182550Z_stmary_opus55_claude`, `20261030T182626Z_guerrero_opus55_claude`,
+executed by Laurenz Günther; same model, settings, index and template as batch 1; 36 of 36 responses valid, model identity
+consistent) and **filed on FantasySCOTUS by Raymond Duch on 31 October 2026, approximately 05:13–05:17 UTC**, one case at a
+time, each saved once and verified by reload, two days before the first argument. No Justice was listed as recused.
+Twins and filed entries: Maxwell Reverse 7–2 (Thomas and Alito affirm); Younge Reverse 9–0; St. Mary Reverse 6–3; Guerrero
+Reverse 6–3 (Sotomayor, Kagan and Jackson affirm in both). The crowd at filing, read immediately after our entries were
+saved and therefore including them: Reverse 8–1, 6–3, 6–3 and 5–4 respectively (`crowd_justices_2026-10-31.csv` has the
+per-Justice figures). Files: `predictions_2026-10-31.csv`, `outcomes_2026-10-31.csv`, `crowd_justices_2026-10-31.csv`,
+`packets/OT2026_25-5930_Maxwell.md`, `packets/OT2026_25-352_Younge.md`, `packets/OT2026_25-581_StMary.md`,
+`packets/OT2026_25-1003_Guerrero.md`, `sealed/RUN_RECORD_2026-10-31.json`, `sealed/SEALED_HASHES_2026-10-31.csv`,
+`filing_screenshots/2026-10-31_batch3/`.
+
+Two alignment notes. In Maxwell the United States, the nominal respondent, supports vacatur and the Court appointed an
+amicus to defend the judgment; the packet defines petitioner = reverse/vacate and respondent = affirm (as in Beaird). In
+Guerrero the State is the petitioner, so a vote for the petitioner is a vote for the State against the capital prisoner.
+
+Two retrieval notes, recorded here because they bear on what the twins were shown and will be visible when the sealed
+material is released; neither changes an entry. (1) The harness builds its first retrieval query from the first paragraph
+under the packet's question-presented heading. In Maxwell that paragraph was the one-line grant-limitation preamble
+rather than the question, so the first of the three queries carried no legal content; the second (doctrinal area and
+precedents) and third (the parties' first arguments) were unaffected, and every twin read the full packet including the
+question. The same occurred in Beaird (batch 2). From batch 4 the question is the first paragraph of that section.
+(2) The harness excludes from retrieval any prior writing whose case title shares a word with the target title; for
+St. Mary the word was "Catholic", so prior writings in Catholic Charities Bureau v. Wisconsin (2025) and any other
+"Catholic"-titled case were not retrievable for that case. Builder item: exclude by identifier and full title.
+
+Next: batch 4 — Nielsen v. Watanabe (25-417) and Hoffmann v. WBI Energy Transmission (25-159), argued 9 November, and
+Department of Labor v. Sun Valley Orchards (25-966), argued 10 November; packets by 5 November, run 7 November, filing
+8 November.
 
 ---
 Content © 2026 Raymond Duch and Laurenz Günther; released under CC BY 4.0. Research commentary, not legal advice.

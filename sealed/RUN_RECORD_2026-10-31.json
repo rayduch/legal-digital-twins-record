@@ -1,0 +1,178 @@
+{
+ "batch": "November 2026 sitting, batch 3 (Maxwell 25-5930, Younge 25-352, St. Mary 25-581, Guerrero 25-1003)",
+ "status": "RUN ON 2026-10-30, FILED ON FANTASYSCOTUS 2026-10-31 BEFORE ARGUMENT (2-4 NOVEMBER 2026), SCORED",
+ "runs": {
+  "25-5930": {
+   "run_id": "20261030T182415Z_maxwell_opus55_claude",
+   "started_utc": "2026-10-30T18:24:15.687445Z",
+   "batch_submitted_utc": "2026-10-30T18:28:47.662720+00:00",
+   "batch_collected_utc": "2026-10-30T18:30:32.489012Z",
+   "batch_id": "msgbatch_01WMVX4taLU2i4ozrCd7cyS4",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-5930_Maxwell.md",
+    "sha256": "ebcef5f6444e496c90ab1e8ef82557d075539b054167b9b95fb70d3c2ebad8ce"
+   },
+   "run_files_sha256": {
+    "run_log_json": "e99c5421c628e943632021abf987a21c5e982bd99fe27a3c3e4878c284dcf22f",
+    "provider_results_jsonl": "4a02cee461cdb7e3ea459a37a0db59d2f76f0715f36b3fbe449214e8de2cf90b",
+    "forecast_table_csv": "d68ffd5ea3094c0a6e285b756526d4d77bcd8c8be124e51da548128aaf0a614f",
+    "artifact_sha256_json": "d451b1efa0bd4b0667be87913661e64ae18348e17e3394868ecb91d995f939ed"
+   },
+   "executed_by": "Laurenz Günther",
+   "filed_utc": "2026-10-31T05:13Z (approx.; saved once by Raymond Duch; screenshot in filing_screenshots/)",
+   "fantasyscotus_crowd_at_filing": "Reverse 8-1"
+  },
+  "25-352": {
+   "run_id": "20261030T182506Z_younge_opus55_claude",
+   "started_utc": "2026-10-30T18:25:06.322010Z",
+   "batch_submitted_utc": "2026-10-30T18:28:49.229870+00:00",
+   "batch_collected_utc": "2026-10-30T18:30:35.102222Z",
+   "batch_id": "msgbatch_01RcHuko6uo3gzzytAgA9daz",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-352_Younge.md",
+    "sha256": "004b820e597ced3e26fa5763d92d1e0c2ccb0b1de4bafb274d258f1a42cc08e3"
+   },
+   "run_files_sha256": {
+    "run_log_json": "793c856fa02fe5dbda9c9e1ae0c747963cb00ab063685e73d57233508a13709b",
+    "provider_results_jsonl": "dffabd3175dbd8ae950367ab899eed242280b579e485a202925fbea93e11f860",
+    "forecast_table_csv": "701283a431e0ac5d270983e6359057b870b26bd0f3008021f2993e795838bbee",
+    "artifact_sha256_json": "f4fe7a1b4de447027a01f6419aa1b45f495814ea25e0eb0d98d2ef44c509de86"
+   },
+   "executed_by": "Laurenz Günther",
+   "filed_utc": "2026-10-31T05:15Z (approx.; saved once by Raymond Duch; screenshot in filing_screenshots/)",
+   "fantasyscotus_crowd_at_filing": "Reverse 6-3"
+  },
+  "25-581": {
+   "run_id": "20261030T182550Z_stmary_opus55_claude",
+   "started_utc": "2026-10-30T18:25:50.423646Z",
+   "batch_submitted_utc": "2026-10-30T18:28:50.459472+00:00",
+   "batch_collected_utc": "2026-10-30T18:30:38.620576Z",
+   "batch_id": "msgbatch_01U6JUZNRX2TWArMPeLPyPBr",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-581_StMary.md",
+    "sha256": "7fda030931508fe9acc0899a2289f03ee5673fe354895427a0dcf2f696209896"
+   },
+   "run_files_sha256": {
+    "run_log_json": "af413f6b6e057a6686956012fd8ef742270f06e3b7507dd05ca9f841c67d9e3f",
+    "provider_results_jsonl": "21428dcc99fd533f9b6def089a78df396d225b5ff4569b8194eff10e7dc2cebc",
+    "forecast_table_csv": "40935cab400e5f127988620a165e696fac8ca018df71d5dd899e0d01aead731a",
+    "artifact_sha256_json": "1696a1d6bcfa683cae0f3636a11a031d10ccbca790807bb306d0b9d2b633d406"
+   },
+   "executed_by": "Laurenz Günther",
+   "filed_utc": "2026-10-31T05:16Z (approx.; saved once by Raymond Duch; screenshot in filing_screenshots/)",
+   "fantasyscotus_crowd_at_filing": "Reverse 6-3"
+  },
+  "25-1003": {
+   "run_id": "20261030T182626Z_guerrero_opus55_claude",
+   "started_utc": "2026-10-30T18:26:26.250247Z",
+   "batch_submitted_utc": "2026-10-30T18:28:51.732820+00:00",
+   "batch_collected_utc": "2026-10-30T18:30:41.964653Z",
+   "batch_id": "msgbatch_01NGDU5HwTeVz36uvsUwT6o6",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-1003_Guerrero.md",
+    "sha256": "4311e2b331ed8e2891024ed9778eb194fce3b2207e6a0205bf56fe7eec841bb3"
+   },
+   "run_files_sha256": {
+    "run_log_json": "2b503b65f53bea2d542b13c1440b40d982ff706f6409e9f5dd9a4431861839f5",
+    "provider_results_jsonl": "fae602779ff497d09269fe294791aef18ad3bf617d03903df3eff6a76a5ecb3d",
+    "forecast_table_csv": "dc2f3b3fe9027328051bcc90b7c8b10a278eef869ddf9b4ba5a70f12bc68b870",
+    "artifact_sha256_json": "a540bd0e92b814d1b20d49d40da4fd01bc92a09313edc9ce8b9b3d1b8cf115a2"
+   },
+   "executed_by": "Laurenz Günther",
+   "filed_utc": "2026-10-31T05:17Z (approx.; saved once by Raymond Duch; screenshot in filing_screenshots/)",
+   "fantasyscotus_crowd_at_filing": "Reverse 5-4"
+  }
+ },
+ "index": {
+  "version": "v3.1.1",
+  "chunks_sha256": "83b37cb2b31fd9d272ee1e5251a4914c8484d12445759ee8a500ae1eb34670a6",
+  "embeddings_sha256": "aa1cd5fd851338fea23113db79ed6f1c3e49f3abfd082105453ac6c03b21a89f",
+  "n_chunks": 37268,
+  "n_writings": 2977,
+  "encoder": "BAAI/bge-small-en-v1.5",
+  "encoder_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "evidence_window": "October Terms 1991-2024"
+ },
+ "retrieval": {
+  "k": 8,
+  "queries_per_case": 3,
+  "channel": "authored",
+  "max_term": 2024,
+  "quotas": "2 majority / 2 separate / rest by score, <=2 per prior case"
+ },
+ "notes": {
+  "25-5930": "Grant limited to the §2241 question; the United States (nominal respondent) supports vacatur and the Court appointed an amicus to defend the judgment; the packet defines petitioner = reverse/vacate, respondent = affirm. Retrieval note: the harness's first query is the first paragraph under the packet's QP heading, which here was the one-line grant-limitation preamble rather than the question (as in Beaird, batch 2); queries 2 and 3 and the packet the twins read were unaffected. Packet convention from batch 4: the question is the first paragraph.",
+  "25-352": "Standard alignment; petitioner lost below.",
+  "25-581": "Standard alignment; grant limited to Questions 1 and 2; the United States is amicus for petitioners. Retrieval note: the harness excludes prior writings whose title shares a word with the target title; the word here was 'Catholic', so prior writings in Catholic Charities Bureau v. Wisconsin (2025) and any other 'Catholic'-titled case were not retrievable for this case. Builder item: exclude by identifier and full title, not shared word.",
+  "25-1003": "Capital case; the State (Director, TDCJ-CID) is petitioner and lost below, so petitioner → Reverse is a vote for the State."
+ },
+ "filed": {
+  "where": "FantasySCOTUS (fantasyscotus.net), user rduch, OT 2026",
+  "when": "2026-10-31 approx. 05:13-05:17 UTC, one case at a time, each saved once; verified by reload after each save",
+  "by": "Raymond Duch",
+  "recusals_listed_by_site": "none",
+  "screenshots": "filing_screenshots/2026-10-31_batch3/ (released with this record)",
+  "crowd_at_filing": "outcomes_2026-10-31.csv and crowd_justices_2026-10-31.csv; the crowd figures were read immediately after our own entries were saved and therefore include them"
+ },
+ "to_be_released_on_decision": [
+  "the full prompt per Justice per case",
+  "the eight retrieved passages per Justice per case with their chunk ids",
+  "the complete model response per Justice per case"
+ ]
+}
