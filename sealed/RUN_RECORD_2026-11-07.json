@@ -1,0 +1,143 @@
+{
+ "batch": "November 2026 sitting, batch 4 (Nielsen 25-417, Hoffmann 25-159, Sun Valley Orchards 25-966)",
+ "status": "RUN ON 2026-11-05, FILED ON FANTASYSCOTUS 2026-11-07 BEFORE ARGUMENT (9-10 NOVEMBER 2026), SCORED",
+ "runs": {
+  "25-417": {
+   "run_id": "20261105T164847Z_nielsen_opus55_claude",
+   "started_utc": "2026-11-05T16:48:47.220133Z",
+   "batch_submitted_utc": "2026-11-05T16:51:43.913963+00:00",
+   "batch_collected_utc": "2026-11-05T16:55:27.260198Z",
+   "batch_id": "msgbatch_01Co3UApQfzwFcDWDDL7xZDc",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-417_Nielsen.md",
+    "sha256": "fd3db53b1f28816ecb32e355c13e181fb1ef89f47e757c569efb2987d22a6102"
+   },
+   "run_files_sha256": {
+    "run_log_json": "7303f38e010ac46737675614b7e8316163a53a16f7295c27b0538865c96d73e5",
+    "provider_results_jsonl": "a4c217d7ff0eac1ddddf55fb784307e40ae56c53110bbbad4a145937034c6901",
+    "forecast_table_csv": "7cb302c911deb1d410804b67b16d1683d1374ad6ffe72fc5ae2cd4a183cac64a",
+    "artifact_sha256_json": "7853e4b940e0168e23937b209917f30a3678173ea6f3fa31a34c1c0617226958"
+   },
+   "executed_by": "Laurenz Günther",
+   "filed_utc": "2026-11-07T17:40Z (approx.; saved once by Raymond Duch; screenshot in filing_screenshots/)",
+   "fantasyscotus_crowd_at_filing": "Reverse 6-3"
+  },
+  "25-159": {
+   "run_id": "20261105T164933Z_hoffmann_opus55_claude",
+   "started_utc": "2026-11-05T16:49:33.510484Z",
+   "batch_submitted_utc": "2026-11-05T16:51:45.183309+00:00",
+   "batch_collected_utc": "2026-11-05T16:55:28.783352Z",
+   "batch_id": "msgbatch_01DyLwBEKYahe9GqcQxF3TdT",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-159_Hoffmann.md",
+    "sha256": "7aab59a31ec050f4ec732630bf6a6bcd68a9ded160468a1839432e29aaa20c2e"
+   },
+   "run_files_sha256": {
+    "run_log_json": "00ecde7f54e384929abf30c4afab4e50251976c7ac3fa6ba370b22ee4d7504a1",
+    "provider_results_jsonl": "957ff132dfc2504168892a8b80d71ed9f4279358aa3242c621d877be9ace4b2e",
+    "forecast_table_csv": "f4d1fb56a091e7196aa029ce21881a32cd914b5d5b6868309573fa0d2f07be4b",
+    "artifact_sha256_json": "7d2cc34407122042e4088b87be47acb930e89dd01f1d3e980c0c957b4cefc663"
+   },
+   "executed_by": "Laurenz Günther",
+   "filed_utc": "2026-11-07T17:42Z (approx.; saved once by Raymond Duch; screenshot in filing_screenshots/)",
+   "fantasyscotus_crowd_at_filing": "Affirm 5-4"
+  },
+  "25-966": {
+   "run_id": "20261105T164959Z_sunvalley_opus55_claude",
+   "started_utc": "2026-11-05T16:49:59.487088Z",
+   "batch_submitted_utc": "2026-11-05T16:51:46.215962+00:00",
+   "batch_collected_utc": "2026-11-05T16:55:30.558439Z",
+   "batch_id": "msgbatch_01BKVpodr4tkxq4CQ1wApFnx",
+   "harness_version": "1.2",
+   "prompt_template": "twin_prompt_v1_1.md",
+   "prompt_template_sha256": "13acc96ffe70976ef5c305d78fc06f052c45806ad20fda18b5220d3eaac24ec0",
+   "model_requested": "claude-opus-5-5",
+   "model_returned": "claude-opus-5-5",
+   "model_consistent": true,
+   "settings": {
+    "thinking": {
+     "type": "adaptive"
+    },
+    "effort": "medium",
+    "max_tokens": 4000,
+    "temperature": "omitted (API default)"
+   },
+   "packet": {
+    "file": "packets/OT2026_25-966_SunValley.md",
+    "sha256": "8d0cf64f42e4df9ad9e9fe0d64df838ed4ab7d1ecc82fb2de577a13bd029e923"
+   },
+   "run_files_sha256": {
+    "run_log_json": "2cb5829c920618ca80f07b5ec45e63a915a9f8b456d3351a1c9eb5388cf29faa",
+    "provider_results_jsonl": "571505b46c0775d6c9fb3651ac0527389127cdc86c1ce9b69d29cb29f03bc1e1",
+    "forecast_table_csv": "774b23f2b2526c2928a08308666fc70aac5a33476162012a0d93f06d115a0bcf",
+    "artifact_sha256_json": "8a02b589247757ea8973739e6432c33afbe69d485f5cfdadc0fa31cc7804b058"
+   },
+   "executed_by": "Laurenz Günther",
+   "filed_utc": "2026-11-07T17:44Z (approx.; saved once by Raymond Duch; screenshot in filing_screenshots/)",
+   "fantasyscotus_crowd_at_filing": "Affirm 6-3"
+  }
+ },
+ "index": {
+  "version": "v3.1.1",
+  "chunks_sha256": "83b37cb2b31fd9d272ee1e5251a4914c8484d12445759ee8a500ae1eb34670a6",
+  "embeddings_sha256": "aa1cd5fd851338fea23113db79ed6f1c3e49f3abfd082105453ac6c03b21a89f",
+  "n_chunks": 37268,
+  "n_writings": 2977,
+  "encoder": "BAAI/bge-small-en-v1.5",
+  "encoder_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "evidence_window": "October Terms 1991-2024"
+ },
+ "retrieval": {
+  "k": 8,
+  "queries_per_case": 3,
+  "channel": "authored",
+  "max_term": 2024,
+  "quotas": "2 majority / 2 separate / rest by score, <=2 per prior case"
+ },
+ "notes": {
+  "25-417": "Standard alignment; petitioner (the federal officer) lost below. The United States is amicus for petitioner.",
+  "25-159": "Standard alignment; petitioners (the landowners) lost below. The United States is amicus for respondent. Retrieval note: the shared-word title exclusion used 'Hoffmann' and 'Energy', so prior writings whose titles contain 'Energy' were not retrievable for this case (builder item).",
+  "25-966": "The Department of Labor is petitioner and lost below; petitioner → Reverse is a vote for the Department (agency adjudication upheld). Hold-out rule: a decision of this Court from October Term 2025 relied on by respondent is neither named nor described in the packet. Retrieval notes: (i) the packet's first paragraph under the question-presented heading was the grant-limitation line rather than the question, so query 1 was empty of law (as Maxwell, batch 3, and Beaird, batch 2) — a packet-assembly error by Claude despite the convention adopted after batch 3; queries 2 and 3 and the packet the twins read (both questions) were unaffected; the run is filed as made. (ii) The shared-word title exclusion used 'Labor' and 'Valley', so prior writings whose titles contain 'Labor' (e.g. National Labor Relations Board cases) were not retrievable for this case (builder item)."
+ },
+ "filed": {
+  "where": "FantasySCOTUS (fantasyscotus.net), user rduch, OT 2026",
+  "when": "2026-11-07 approx. 17:40-17:44 UTC, one case at a time, each saved once; verified by reload after each save",
+  "by": "Raymond Duch",
+  "recusals_listed_by_site": "none",
+  "screenshots": "filing_screenshots/2026-11-07_batch4/",
+  "crowd_at_filing": "outcomes_2026-11-07.csv and crowd_justices_2026-11-07.csv; read immediately after our entries were saved and therefore including them"
+ },
+ "to_be_released_on_decision": [
+  "the full prompt per Justice per case",
+  "the eight retrieved passages per Justice per case with their chunk ids",
+  "the complete model response per Justice per case"
+ ]
+}

@@ -106,9 +106,44 @@ question. The same occurred in Beaird (batch 2). From batch 4 the question is th
 St. Mary the word was "Catholic", so prior writings in Catholic Charities Bureau v. Wisconsin (2025) and any other
 "Catholic"-titled case were not retrievable for that case. Builder item: exclude by identifier and full title.
 
-Next: batch 4 — Nielsen v. Watanabe (25-417) and Hoffmann v. WBI Energy Transmission (25-159), argued 9 November, and
-Department of Labor v. Sun Valley Orchards (25-966), argued 10 November; packets by 5 November, run 7 November, filing
-8 November.
+(Batch 4 was filed on 7 November 2026; see the next section.)
+
+## Batch 4 — November sitting, filed 7 November 2026 before argument (scored)
+
+Nielsen v. Watanabe (25-417, argued 9 November), Hoffmann v. WBI Energy Transmission, Inc. (25-159, argued 9 November)
+and Department of Labor v. Sun Valley Orchards, LLC (25-966, argued 10 November) were run on 5 November 2026 (16:48–16:55
+UTC; runs `20261105T164847Z_nielsen_opus55_claude`, `20261105T164933Z_hoffmann_opus55_claude`,
+`20261105T164959Z_sunvalley_opus55_claude`, executed by Laurenz Günther; same model, settings, index and template as
+batch 1; 27 of 27 responses valid, model identity consistent) and **filed on FantasySCOTUS by Raymond Duch on 7 November
+2026, approximately 17:40–17:44 UTC**, one case at a time, each saved once and verified by reload, two days before the
+first argument. No Justice was listed as recused. Twins and filed entries: Nielsen Reverse 6–3 (Sotomayor, Kagan and
+Jackson affirm); Hoffmann Reverse 6–3 (Roberts, Kavanaugh and Barrett affirm; the least certain case so far, every
+probability between 0.40 and 0.68); Sun Valley Reverse 5–4 for the Department (Thomas, Alito, Gorsuch and Barrett
+affirm). The crowd at filing, read immediately after our entries were saved and therefore including them: Nielsen
+Reverse 6–3, **Hoffmann Affirm 5–4** and **Sun Valley Affirm 6–3** — the first two cases on which the twins and the
+crowd disagree on the outcome (`crowd_justices_2026-11-07.csv` has the per-Justice figures). Files:
+`predictions_2026-11-07.csv`, `outcomes_2026-11-07.csv`, `crowd_justices_2026-11-07.csv`, `packets/OT2026_25-417_Nielsen.md`,
+`packets/OT2026_25-159_Hoffmann.md`, `packets/OT2026_25-966_SunValley.md`, `sealed/RUN_RECORD_2026-11-07.json`,
+`sealed/SEALED_HASHES_2026-11-07.csv`, `filing_screenshots/2026-11-07_batch4/`.
+
+Alignment is conventional in all three (each petitioner lost below). In Sun Valley the Department of Labor is the
+petitioner, so a petitioner vote is a vote for the Department and for agency adjudication. The United States is amicus
+for petitioner in Nielsen and for respondent in Hoffmann. Hold-out rule: the respondent's brief in Sun Valley relies on
+a decision of this Court from October Term 2025; the packet neither names nor describes it.
+
+Retrieval notes, recorded here because they bear on what the twins were shown. (1) In Nielsen and Hoffmann the
+question itself is the first paragraph of the packet's question-presented section, as the convention adopted after
+batch 3 requires, and the harness's first query is the question. In Sun Valley the packet's author placed the
+grant-limitation line above the two questions, so the first query was empty of law, exactly as in Maxwell (batch 3)
+and Beaird (batch 2); the second and third queries and the packet the twins read (both questions included) were
+unaffected. The error was caught from the run log before filing and the run is filed as it was made; a mechanical check
+on the packet's first paragraph has been added before deposit. (2) The harness's shared-word title exclusion used
+"Energy" for Hoffmann and "Labor" for Sun Valley, so prior writings whose titles contain those words (e.g. National
+Labor Relations Board cases) were not retrievable for those cases; as with "Catholic" in St. Mary, this is a builder
+item for after the sitting — exclusion by identifier and full title.
+
+This completes the November sitting: eleven cases filed before argument (four in October, seven in November), two run
+but unfiled and unscored. The December sitting opens on 30 November 2026.
 
 ---
 Content © 2026 Raymond Duch and Laurenz Günther; released under CC BY 4.0. Research commentary, not legal advice.
